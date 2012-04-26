@@ -31,6 +31,18 @@ a {
   }
 }
 
+::-moz-selection { 
+	background-color : lighten($basecolor, 65%); 
+	color : $basecolor; 
+	text-shadow : none;
+}  
+
+::selection { 
+	background-color : lighten($basecolor, 65%); 
+	color : $basecolor; 
+	text-shadow : none;
+}
+
 // 4. TEXTURE 				==============================
 // 5. ELEMENTS 				==============================
 // 6. LAYOUT 				==============================
