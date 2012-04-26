@@ -85,7 +85,7 @@ table {
     border-left : $tableborderwidth $tableborderstyle $tableborder;
   }
 
-  #{nest("thead:first-child, tbody:first-child', 'tr:first-child th")},
+  #{nest('thead:first-child, tbody:first-child', 'tr:first-child th')},
   tbody:first-child tr:first-child td {
     border-top : 0;
   }
@@ -93,6 +93,6 @@ table {
 
 // STRIPED ====================================================
 
-#{nest(".table-striped tbody tr:nth-child(odd)', 'td, th")} {
+#{nest('.table-striped tbody tr:nth-child(odd)', 'td, th')} {
   background-color : $tablestripe;
 }
